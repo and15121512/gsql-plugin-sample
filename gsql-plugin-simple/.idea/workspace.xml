@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4fbbbc4f-076d-4c8d-99e3-4f36ea9cd0a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/antlr/org/antlr/jetbrains/sample/parser/SampleLanguage.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/SampleASTFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/SampleASTFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/SampleColorSettingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/SampleColorSettingsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/SampleExternalAnnotator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/SampleExternalAnnotator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/SampleFileType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/SampleFileType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/SampleFindUsagesProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/SampleFindUsagesProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/SampleLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/SampleLanguage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/SampleParserDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/SampleParserDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/SampleSyntaxHighlighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/SampleSyntaxHighlighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/psi/ArgdefSubtree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/psi/BlockSubtree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/psi/CallSubtree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/psi/FunctionRef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/psi/FunctionSubtree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/psi/IdentifierPSINode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/psi/SampleElementRef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/psi/SamplePSIFileRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/psi/VardefSubtree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/psi/VariableRef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/structview/SampleStructureViewElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/antlr/jetbrains/sample/structview/SampleStructureViewElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/antlr/jetbrains/adaptor/test/TestXPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/antlr/jetbrains/adaptor/test/TestXPath.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation>
+            <after_sync>
+              <task name="setupDependencies" />
+            </after_sync>
+          </activation>
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gsql-plugin-simple" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gsql-plugin-simple" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gsql-plugin-simple" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gsql-plugin-simple" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="intellij" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2vp2Wxeuhp6X5dfjiehg00G3ysE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.gsql-plugin-simple [assemble].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.gsql-plugin-simple [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.gsql-plugin-simple [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.gsql-plugin-simple [generateGrammarSource].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.gsql-plugin-simple [jar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.gsql-plugin-simple [runIde].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.gsql-plugin-simple [setupDependencies].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/MyDocs/playground/idea/jetbrains-plugin-sample&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MyDocs\playground\idea\gsql-plugin-simple\src\main\antlr\org\antlr\jetbrains\sample\parser" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.gsql-plugin-simple [clean]">
+    <configuration name="gsql-plugin-simple [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--debug" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="gsql-plugin-simple [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="gsql-plugin-simple [generateGrammarSource]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="generateGrammarSource" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="gsql-plugin-simple [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="gsql-plugin-simple [runIde]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runIde" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.gsql-plugin-simple [clean]" />
+        <item itemvalue="Gradle.gsql-plugin-simple [runIde]" />
+        <item itemvalue="Gradle.gsql-plugin-simple [assemble]" />
+        <item itemvalue="Gradle.gsql-plugin-simple [generateGrammarSource]" />
+        <item itemvalue="Gradle.gsql-plugin-simple [jar]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fbbbc4f-076d-4c8d-99e3-4f36ea9cd0a6" name="Changes" comment="" />
+      <created>1744827729536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744827729536</updated>
+    </task>
+    <servers />
+  </component>
+</project>

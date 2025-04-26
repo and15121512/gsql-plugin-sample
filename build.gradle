@@ -1,0 +1,57 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+plugins {
+    id "org.jetbrains.intellij" version "1.17.3"
+}
+
+wrapper {
+    gradleVersion = '8.0.2'
+    distributionType = Wrapper.DistributionType.ALL
+}
+
+group 'antlr'
+version pluginVersion
+
+apply plugin: 'java'
+apply plugin: 'org.jetbrains.intellij'
+apply plugin: 'antlr'
+
+compileJava {
+    sourceCompatibility = '17'
+    targetCompatibility = '17'
+}
+
+intellij {
+    version = ideaVersion
+    type = 'IC'  // Community edition
+    plugins = ['java']
+
+    pluginName.set('gsql-plugin-simple')
+    downloadSources.set(true)
+    updateSinceUntilBuild.set(false)
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    antlr("org.antlr:antlr4:$antlr4Version") { // use ANTLR version 4
+        exclude group:'com.ibm.icu', module:'icu4j'
+    }
+    implementation 'org.antlr:antlr4-intellij-adaptor:0.1'
+    testImplementation("junit:junit:4.13.2")
+}
+
+generateGrammarSource {
+    arguments += [
+            "-package", "org.antlr.jetbrains.sample.parser",
+            "-Xexact-output-dir",
+            "-lib", "src/main/antlr/org/antlr/jetbrains/sample/parser"
+    ]
+    outputDirectory = file("${project.buildDir}/generated-src/antlr/main/org/antlr/jetbrains/sample/parser")
+}
