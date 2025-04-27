@@ -34,10 +34,20 @@
 	</project-components>
 
 	<actions>
+		<action id="RunMyScript" class="org.antlr.jetbrains.sample.run.RunMyScriptAction"
+				text="Run GSQL Script" description="Execute current GSQL script">
+			<add-to-group group-id="EditorPopupMenu" anchor="last"/>
+			<add-to-group group-id="RunMenu" anchor="last"/>
+			<keyboard-shortcut keymap="$default" first-keystroke="ctrl alt R"/>
+		</action>
 	</actions>
 
 	<extensions defaultExtensionNs="com.intellij">
+
+		<fileType name="GSQL" implementationClass="org.antlr.jetbrains.sample.SampleFileType" language="GSQL"/>
+
 		<fileTypeFactory implementation="org.antlr.jetbrains.sample.SampleFileTypeFactory"/>
+
 		<lang.syntaxHighlighterFactory language="GSQL"
 									   implementationClass="org.antlr.jetbrains.sample.SampleSyntaxHighlighterFactory"/>
 
@@ -73,5 +83,15 @@
 				implementation="org.antlr.jetbrains.sample.SampleRenameProcessor"/>
 
 		<renameHandler implementation="org.antlr.jetbrains.sample.SampleRenameHandler"/>
+
+		<!-- For "Run" feature -->
+		<configurationType implementation="org.antlr.jetbrains.sample.run.GsqlRunConfigurationType"/>
+
+		<runLineMarkerContributor language="GSQL"
+								  implementationClass="org.antlr.jetbrains.sample.run.GsqlRunLineMarkerProvider"/>
+
+		<programRunner implementation="org.antlr.jetbrains.sample.run.GsqlProgramRunner"
+					   runnerId="GsqlProgramRunner"/>
+
 	</extensions>
 </idea-plugin>

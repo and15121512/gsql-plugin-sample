@@ -40,9 +40,6 @@ public class SampleParserDefinition implements ParserDefinition {
 		PSIElementTypeFactory.defineLanguageIElementTypes(SampleLanguage.INSTANCE,
 		                                                  CoreParser.tokenNames,
 		                                                  CoreParser.ruleNames);
-		//List<TokenIElementType> tokenIElementTypes =
-		//	PSIElementTypeFactory.getTokenIElementTypes(SampleLanguage.INSTANCE);
-		//ID = tokenIElementTypes.get(TokenLexer.L_ID);
 	}
 
 	public static TokenIElementType ID() {
@@ -63,17 +60,12 @@ public class SampleParserDefinition implements ParserDefinition {
 	public static final TokenSet STRING =
 		PSIElementTypeFactory.createTokenSet(
 			SampleLanguage.INSTANCE,
-				TokenLexer.T_ACTION
-				//TokenLexer.S_STRING,
-				//TokenLexer.B_STRING,
-				//TokenLexer.D_STRING
+				TokenLexer.T_ACTION // It's dummy, probably remove later
 		);
 
 	@NotNull
 	@Override
 	public Lexer createLexer(Project project) {
-		//TokenLexer lexer = new TokenLexer(null);
-		//return new ANTLRLexerAdaptor(SampleLanguage.INSTANCE, lexer);
 		return new SampleLexerAdaptor();
 	}
 

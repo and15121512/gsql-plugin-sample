@@ -17,13 +17,13 @@ public class SampleFileType extends LanguageFileType {
 	@NotNull
 	@Override
 	public String getName() {
-		return "GSQL file";
+		return "GSQL";
 	}
 
 	@NotNull
 	@Override
 	public String getDescription() {
-		return "GSQL file";
+		return "GSQL";
 	}
 
 	@NotNull
